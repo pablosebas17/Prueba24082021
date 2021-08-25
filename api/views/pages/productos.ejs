@@ -4,7 +4,15 @@
     <%- include('../partials/meta') %>
 </head>
 <body>
+
     <%- include('../partials/header') %>
+    <h1>Productos</h1>
+
+    <% JSONProducts.forEach(product => { %>
+        <h3><%= product.title %></h3>
+      <% }) %>
+
     <%- include('../partials/footer') %>
+    
 </body>
 </html>

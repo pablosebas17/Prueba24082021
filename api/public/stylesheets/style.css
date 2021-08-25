@@ -1,0 +1,215 @@
+*{
+  box-sizing: border-box;
+  }
+  
+  .row{
+  margin: 0 auto;
+  }
+  
+  .col12{
+  margin: 0 auto;
+  }
+  
+  body{
+  margin: 0;
+  padding-bottom: 200px;
+  position: relative;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+  
+  ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+  
+  a{
+  text-decoration: none;
+  }
+  
+  /*Generales*/
+  
+  .container{
+  max-width: 1200px;
+  margin: 0 auto;
+  }
+  
+  .flex{
+  display: flex;
+  align-items: center;
+  }
+  
+  .jc-sa{
+  justify-content: space-around;
+  }
+  
+  
+  /* Main Nav*/
+  
+   nav{
+  background: conic-gradient(from 60deg at 50% 50%, #07D672 0deg, rgba(111, 6, 244, 0.85) 3.75deg, #a08448 63.75deg, rgba(36, 29, 37, 0.9) 116.25deg, rgba(39, 197, 13, 0.85) 174.38deg, rgba(249, 76, 8, 0.94) 225deg, rgba(236, 11, 236, 0.99) 290.63deg, #07D672 360deg);
+   }
+  
+  .main-nav-logo{
+  max-width: 7.5%;
+  }
+  
+  .main-nav{
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.1);
+  padding: 15px 0px;
+  }
+  
+  .main-nav-ul{
+  display: flex;
+  }
+  
+  .main-nav-a{
+  display: inline-block;
+  padding: 20px;
+  }
+  
+  /* Hero*/ 
+  
+  .title-hero{
+  color: indigo;
+  font-size: 30px;
+  text-align: center;
+  padding: 0;
+  font-style: italic;
+  
+  }
+  
+  .img-hero{
+      max-width: 7.5%;
+  }
+  .hero{
+  background-color:white;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 20px 0px;
+  }
+  
+  /*Main Section*/
+  
+  .title-main{
+  padding: 10px;
+  color: rgb(77, 71, 71);
+  }
+  
+  .flex-right{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  }
+  
+  .main-p {
+  font-size: 15px;
+  padding: 10px;
+  color: gray;
+  text-align: center;
+  
+  
+  }
+  
+  .btn{
+      display: inline-block;
+      border-radius: 25px;
+      margin: 20px 0px;
+      padding: 10px 20px;
+      color: white;
+  }
+  
+  .bg-indigo{
+      background: conic-gradient(from 5deg at 50% 50%, #07D672 0deg, rgba(111, 6, 244, 0.85) 3.75deg, #a08448 63.75deg, rgba(36, 29, 37, 0.9) 116.25deg, rgba(39, 197, 13, 0.85) 174.38deg, rgba(249, 76, 8, 0.94) 225deg, rgba(236, 11, 236, 0.99) 290.63deg, #07D672 360deg);
+  }
+  
+  
+  .carousel-inner{
+  border-radius: 30px;
+  border: 1px solid #ab9e9e;
+  margin-bottom: 20px;
+  }
+  /* Section Temas*/
+  
+  .temas{
+  background: conic-gradient(from 60deg at 50% 50%, #07D672 0deg, rgba(111, 6, 244, 0.85) 3.75deg, #a08448 63.75deg, rgba(36, 29, 37, 0.9) 116.25deg, rgba(39, 197, 13, 0.85) 174.38deg, rgba(249, 76, 8, 0.94) 225deg, rgba(236, 11, 236, 0.99) 290.63deg, #07D672 360deg);
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.1);
+  margin:20px 0px;
+  padding-top: 20px;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  box-shadow: blueviolet;
+  text-align: center;
+  
+  
+  }
+  
+  .temas-a{
+  font-size: 20px;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  }
+  /*Section Card*/
+  
+  .card {
+    
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: #e5e6dd;
+    border-radius: 30px;
+    font-family: Roboto, Arial, sans-serif;
+    text-align: center;
+    box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.1);
+    margin: 30px;
+    padding: 0px;
+  
+  }
+  
+  .card-info {
+  padding: 0 20px 20px 20px;
+  }
+  
+  .img-card{
+    max-width: 100%;
+    /* border-radius: 30px 30px 0 0; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+    
+  /*Footer*/
+  
+  footer{
+  background: conic-gradient(from 60deg at 50% 50%, #07D672 0deg, rgba(111, 6, 244, 0.85) 3.75deg, #a08448 63.75deg, rgba(36, 29, 37, 0.9) 116.25deg, rgba(39, 197, 13, 0.85) 174.38deg, rgba(249, 76, 8, 0.94) 225deg, rgba(236, 11, 236, 0.99) 290.63deg, #07D672 360deg);
+  color: white;
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 20px;
+  margin-top: 20px
+  }
+      
+  .footer_left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  
+  }
+      
+  .footer_right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  
+  }
+      
+  .img_footer{
+  width: 56px;
+  height: 56px;
+  margin: 20px;
+  }
+      
+  
